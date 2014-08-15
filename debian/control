@@ -1,0 +1,32 @@
+Source: erlang-ranch
+Section: devel
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@proffero.com>
+Build-Depends: debhelper (>= 8.0.0), erlang-base
+Standards-Version: 3.9.3
+Homepage: https://github.com/ninenines/ranch
+Vcs-Browser: https://github.com/ninenines/ranch
+Vcs-Git: https://github.com/ninenines/ranch.git
+
+Package: erlang-ranch
+Architecture: all
+Depends: erlang-base
+Description: Socket acceptor pool for TCP protocols.
+ Ranch is a socket acceptor pool for TCP protocols.
+ .
+ Ranch aims to provide everything you need to accept
+ TCP connections with a small code base and low latency
+ while being easy to use directly as an application or
+ to embed into your own.
+ .
+ Ranch provides a modular design, letting you choose
+ which transport and protocol are going to be used for
+ a particular listener. Listeners accept and manage
+ connections on one port, and include facilities to
+ limit the number of concurrent connections. Connections
+ are sorted into pools, each pool having a different
+ configurable limit.
+ .
+ Ranch also allows you to upgrade the acceptor pool
+ without having to close any of the currently opened
+ sockets.

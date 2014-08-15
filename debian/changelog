@@ -1,0 +1,5 @@
+erlang-ranch (1.0.0-1) unstable; urgency=low
+
+  * Initial release for Debian.
+
+ -- Aleksey Morarash <aleksey.morarash@proffero.com>  Fri, 15 Aug 2014 15:40:00 +0300
